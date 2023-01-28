@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=Inconsolata:wght@600&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Michroma&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display&family=Poppins:ital,wght@0,800;1,500&family=Roboto+Slab:wght@100&family=Tapestry&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.navbar {
+  background-color: #ffbb38;
+  .logo {
+    img {
+      background-color: white;
+      width: 380px;
+      height: 60px;
+      padding: 10px;
+      float: right;
+    }
+  }
+  .menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      li {
+        list-style: none;
+        padding: 15px 0 0 0;
+        a {
+          color: #1d1d1d;
+          font-size: 14px;
+          text-decoration: none;
+          font-weight: 600;
+          font-family: "Inter", sans-serif;
+
+          svg {
+            width: 14px;
+          }
+        }
+      }
+    }
+    button {
+      background-color: #1d1d1d;
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: 600;
+      svg {
+        width: 14px;
+      }
+    }
+  }
+}
