@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className={styled.navbar}>
       <div className="container">
         <div className="row">
-          <div className="col-4">
+          <div className="col-4 m-0 p-0">
             <div className={styled.logo}>
               <img
                 src="https://shopo.quomodothemes.website/assets/images/logo.svg"
@@ -19,7 +19,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="col-8">
+          <div className="col-8 m-0 p-0">
             <div className={styled.menu}>
               <ul>
                 {router &&
