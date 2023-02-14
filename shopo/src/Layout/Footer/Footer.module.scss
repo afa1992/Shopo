@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue &family=Frank+Ruhl+Libre:wght@300;400;500;700;900&family=Inconsolata:wght@600&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Michroma&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display&family=Poppins:ital,wght@0,800;1,500&family=Roboto+Slab:wght@100&family=Tapestry&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.foot {
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    border-bottom: 1px solid #e5e7eb;
+  }
+  h5 {
+    color: #1d1d1d;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    padding: 20px 0;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+    li {
+      cursor: pointer;
+      list-style: none;
+      color: rgb(154, 154, 154);
+      font-size: 16px;
+      font-weight: 500;
+      font-family: "Inter", sans-serif;
+      padding: 7px 0;
+      :hover {
+        color: #1d1d1d;
+      }
+    }
+  }
+  p {
+    color: rgb(154, 154, 154);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    padding: 15px 0;
+    margin-right: 20px;
+  }
+  .icons {
+    padding: 20px 0;
+    border-top: 1px solid #e5e7eb;
+    ul {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      color: rgb(121, 121, 121);
+      gap: 15px;
+      li {
+        cursor: pointer;
+        svg {
+          color: rgb(121, 121, 121);
+        }
+        span {
+          color: #1d1d1d;
+          font-weight: 500;
+        }
+        :hover {
+          color: #1d1d1d;
+        }
+      }
+    }
+    .media {
+      float: right;
+      img {
+        width: 318px;
+        height: 40px;
+        background-color: white;
+      }
+    }
+  }
+}
